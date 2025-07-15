@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "./public-page/static/css/main.fe74b89e.css",
-    "main.js": "./public-page/static/js/main.62502515.js",
-    "index.html": "./public-page/index.html",
-    "main.fe74b89e.css.map": "./public-page/static/css/main.fe74b89e.css.map",
-    "main.62502515.js.map": "./public-page/static/js/main.62502515.js.map"
+    "main.css": "/public-page/static/css/main.fe74b89e.css",
+    "main.js": "/public-page/static/js/main.62502515.js",
+    "index.html": "/public-page/index.html",
+    "main.fe74b89e.css.map": "/public-page/static/css/main.fe74b89e.css.map",
+    "main.62502515.js.map": "/public-page/static/js/main.62502515.js.map"
   },
   "entrypoints": [
-    "./public-page/static/css/main.fe74b89e.css",
-    "./public-page/static/js/main.62502515.js"
+    "static/css/main.fe74b89e.css",
+    "static/js/main.62502515.js"
   ]
 }
-
-// https://git-mk1996.github.io/public-page/index.html
