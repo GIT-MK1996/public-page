@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FocusFlow - Pomodoro App</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="theme-toggle">
+    <label>
+      <input type="checkbox" id="darkModeToggle" />
+      Donkere modus
+    </label>
+  </div>
+
+  <div class="container">
+    <h1>FocusFlow</h1>
+    <div class="timer">
+      <span id="minutes">25</span>:<span id="seconds">00</span>
+    </div>
+    <div class="controls">
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+      <button id="reset">Reset</button>
+    </div>
+
+    <div class="mode-buttons">
+      <button class="mode" data-mode="pomodoro">Pomodoro</button>
+      <button class="mode" data-mode="shortBreak">Korte pauze</button>
+      <button class="mode" data-mode="longBreak">Lange pauze</button>
+    </div>
+
+    <div class="todo">
+      <h2>Takenlijst</h2>
+      <input type="text" id="taskInput" placeholder="Nieuwe taak..." />
+      <button id="addTask">Toevoegen</button>
+      <ul id="taskList"></ul>
+    </div>
+  </div>
+
+  <script src="script/script.js" defer></script>
+</body>
+</html>
+
